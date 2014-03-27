@@ -47,6 +47,8 @@ whatchasay.register([
 	}
 ]);
 
+function randomThing() { return 'test'; }
+
 function TheHuman(msg) {
 	console.log('TheHuman: ' + msg);
 	whatchasay.parse(msg);
